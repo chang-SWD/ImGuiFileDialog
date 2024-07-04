@@ -162,13 +162,13 @@ SOFTWARE.
 #define createDirButtonString "+"
 #endif  // createDirButtonString
 #ifndef okButtonString
-#define okButtonString "OK"
+#define okButtonString "确定"
 #endif  // okButtonString
 #ifndef okButtonWidth
 #define okButtonWidth 0.0f
 #endif  // okButtonWidth
 #ifndef cancelButtonString
-#define cancelButtonString "Cancel"
+#define cancelButtonString "取消"
 #endif  // cancelButtonString
 #ifndef cancelButtonWidth
 #define cancelButtonWidth 0.0f
@@ -184,43 +184,43 @@ SOFTWARE.
 #define resetButtonString "R"
 #endif  // resetButtonString
 #ifndef devicesButtonString
-#define devicesButtonString "Devices"
+#define devicesButtonString "设备"
 #endif  // devicesButtonString
 #ifndef editPathButtonString
 #define editPathButtonString "E"
 #endif  // editPathButtonString
 #ifndef searchString
-#define searchString "Search :"
+#define searchString "搜索："
 #endif  // searchString
 #ifndef dirEntryString
-#define dirEntryString "[Dir]"
+#define dirEntryString "[文件夹]"
 #endif  // dirEntryString
 #ifndef linkEntryString
-#define linkEntryString "[Link]"
+#define linkEntryString "[链接]"
 #endif  // linkEntryString
 #ifndef fileEntryString
-#define fileEntryString "[File]"
+#define fileEntryString "[文件]"
 #endif  // fileEntryString
 #ifndef fileNameString
-#define fileNameString "File Name:"
+#define fileNameString "文件名称："
 #endif  // fileNameString
 #ifndef dirNameString
-#define dirNameString "Directory Path:"
+#define dirNameString "文件夹名称："
 #endif  // dirNameString
 #ifndef buttonResetSearchString
-#define buttonResetSearchString "Reset search"
+#define buttonResetSearchString "重置搜索"
 #endif  // buttonResetSearchString
 #ifndef buttonDriveString
-#define buttonDriveString "Devices"
+#define buttonDriveString "设备"
 #endif  // buttonDriveString
 #ifndef buttonEditPathString
-#define buttonEditPathString "Edit path\nYou can also right click on path buttons"
+#define buttonEditPathString "编辑路径\n您也可以右击路径按钮"
 #endif  // buttonEditPathString
 #ifndef buttonResetPathString
-#define buttonResetPathString "Reset to current directory"
+#define buttonResetPathString "回到当前文件夹"
 #endif  // buttonResetPathString
 #ifndef buttonCreateDirString
-#define buttonCreateDirString "Create Directory"
+#define buttonCreateDirString "创建文件夹"
 #endif  // buttonCreateDirString
 #ifndef tableHeaderAscendingIcon
 #define tableHeaderAscendingIcon "A|"
@@ -229,16 +229,16 @@ SOFTWARE.
 #define tableHeaderDescendingIcon "D|"
 #endif  // tableHeaderDescendingIcon
 #ifndef tableHeaderFileNameString
-#define tableHeaderFileNameString "File name"
+#define tableHeaderFileNameString "名称"
 #endif  // tableHeaderFileNameString
 #ifndef tableHeaderFileTypeString
-#define tableHeaderFileTypeString "Type"
+#define tableHeaderFileTypeString "类型"
 #endif  // tableHeaderFileTypeString
 #ifndef tableHeaderFileSizeString
-#define tableHeaderFileSizeString "Size"
+#define tableHeaderFileSizeString "大小"
 #endif  // tableHeaderFileSizeString
 #ifndef tableHeaderFileDateString
-#define tableHeaderFileDateString "Date"
+#define tableHeaderFileDateString "日期"
 #endif  // tableHeaderFileDateString
 #ifndef fileSizeBytes
 #define fileSizeBytes "o"
@@ -253,16 +253,16 @@ SOFTWARE.
 #define fileSizeGigaBytes "Go"
 #endif  // fileSizeGigaBytes
 #ifndef OverWriteDialogTitleString
-#define OverWriteDialogTitleString "The selected file already exists!"
+#define OverWriteDialogTitleString "所选文件已存在！"
 #endif  // OverWriteDialogTitleString
 #ifndef OverWriteDialogMessageString
-#define OverWriteDialogMessageString "Are you sure you want to overwrite it?"
+#define OverWriteDialogMessageString "您确定要覆盖它吗？"
 #endif  // OverWriteDialogMessageString
 #ifndef OverWriteDialogConfirmButtonString
-#define OverWriteDialogConfirmButtonString "Confirm"
+#define OverWriteDialogConfirmButtonString "确认"
 #endif  // OverWriteDialogConfirmButtonString
 #ifndef OverWriteDialogCancelButtonString
-#define OverWriteDialogCancelButtonString "Cancel"
+#define OverWriteDialogCancelButtonString "取消"
 #endif  // OverWriteDialogCancelButtonString
 #ifndef DateTimeFormat
 // see strftime functionin <ctime> for customize
